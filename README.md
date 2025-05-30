@@ -4,7 +4,7 @@ PokéVision is a dynamic web application built with vanilla JavaScript, HTML, an
 
 This project was created to demonstrate understanding of JavaScript Objects, the DOM, asynchronous JavaScript (Fetch API, async/await), and dynamic web page updates.
 
-**Live Demo:** [Link to your GitHub Pages deployment if you set one up, e.g., `https://your-username.github.io/your-repo-name/`] (Optional - Add this if you deploy it)
+**Live Demo:** https://aldonvacriates.github.io/poke-vision-app/memory-game.html
 
 ## Features
 
