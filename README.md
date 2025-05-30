@@ -82,13 +82,13 @@ To run this project locally, follow these steps:
 
 
 *   **Search Page:**
-    '![Pokémon Search Page showing Pikachu](images/pikachu.png)'
+    ![Pokémon Search Page showing Pikachu](images/pikachu.png)
 
 *   **All Pokémon List Page:**
-    '![Pokémon Search Page showing Pikachu](images/All-pokemon.png)'
+    ![Pokémon Search Page showing Pikachu](images/All-pokemon.png)
 
 *   **Memory Game Page:**
-    '![Pokémon Search Page showing Pikachu](images/memory-game.png)'
+    ![Pokémon Search Page showing Pikachu](images/memory-game.png)
 
 
 
