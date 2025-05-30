@@ -46,7 +46,7 @@ To run this project locally, follow these steps:
     ```bash
     git clone git@github.com:Aldonvacriates/poke-vision-app.git
     ```
-    (Replace `your-username/your-repo-name` with your actual GitHub repository details)
+    https://github.com/Aldonvacriates/poke-vision-app
     Alternatively, download the project files as a ZIP and extract them.
 
 2.  **Navigate to the project directory:**
@@ -79,16 +79,16 @@ To run this project locally, follow these steps:
 
 ## Screenshots
 
-(It's highly recommended to add screenshots of your application here!)
+
 
 *   **Search Page:**
-    `[Image of the search page with a Pokémon displayed]`
+    '![Pokémon Search Page showing Pikachu](images/pikachu.png)'
 
 *   **All Pokémon List Page:**
-    `[Image of the all Pokémon list page with pagination]`
+    '![Pokémon Search Page showing Pikachu](images/All-pokemon.png)'
 
 *   **Memory Game Page:**
-    `[Image of the memory game in progress]`
+    '![Pokémon Search Page showing Pikachu](images/memory-game.png)'
 
 To add screenshots:
 1. Take screenshots of your application.
