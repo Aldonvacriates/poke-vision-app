@@ -44,7 +44,7 @@ To run this project locally, follow these steps:
 
 1.  **Clone the repository (or download the ZIP):**
     ```bash
-    git clone https://github.com/your-username/your-repo-name.git
+    git clone git@github.com:Aldonvacriates/poke-vision-app.git
     ```
     (Replace `your-username/your-repo-name` with your actual GitHub repository details)
     Alternatively, download the project files as a ZIP and extract them.
