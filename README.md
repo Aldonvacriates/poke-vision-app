@@ -92,7 +92,7 @@ To run this project locally, follow these steps:
 
 
 
-## Future Enhancements (Optional)
+## Future Enhancements
 
 *   More detailed Pokémon information (stats, abilities, evolutions).
 *   Filtering and sorting options on the "All Pokémon" page.
