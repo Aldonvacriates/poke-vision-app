@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokémon Memory Game - PokéVision</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app-container">
+      <header class="app-header">
+        <h1>Pokémon Memory Game</h1>
+        <nav class="main-nav">
+          <a href="index.html" class="nav-link">Search</a>
+          <a href="all-pokemon.html" class="nav-link">All Pokémon</a>
+          <a href="memory-game.html" class="nav-link active">Memory Game</a>
+        </nav>
+      </header>
+
+      <main id="memory-game-section">
+        <div class="game-info-controls">
+          <div class="game-stat">
+            <span>Attempts: </span><span id="attemptsCount">0</span>
+          </div>
+          <div class="game-stat">
+            <span>Matches: </span><span id="matchesCount">0</span> /
+            <span id="totalPairs">0</span>
+          </div>
+          <button id="resetGameButton" class="game-button">Reset Game</button>
+        </div>
+
+        <div id="game-message-center" class="message-center">
+          <p id="gameLoadingMessage" class="loading-message">
+            Setting up the game...
+          </p>
+          <p id="gameWinMessage" class="win-message"></p>
+          <p id="gameErrorMessage" class="error-message"></p>
+          <!-- Added generic error message element -->
+        </div>
+
+        <div id="memoryGameBoard" class="memory-game-board">
+          <!-- Memory cards will be injected here -->
+        </div>
+      </main>
+
+      <footer>
+        <p>
+          Powered by
+          <a
+            href="https://pokeapi.co/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >PokeAPI</a
+          >. Inspired Design.
+        </p>
+      </footer>
+    </div>
+
+    <script src="memory-game.js"></script>
+  </body>
+</html>

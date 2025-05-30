@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PokéVision - Search</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app-container">
+      <header class="app-header">
+        <h1>PokéVision</h1>
+        <nav class="main-nav">
+          <a href="index.html" class="nav-link active">Search</a>
+          <a href="all-pokemon.html" class="nav-link">All Pokémon</a>
+          <a href="memory-game.html" class="nav-link">Memory Game</a>
+        </nav>
+        <div class="search-area">
+          <input
+            type="text"
+            id="pokemonInput"
+            placeholder="Enter Pokémon Name or ID"
+          />
+          <button id="searchButton">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              width="18px"
+              height="18px"
+            >
+              <path
+                d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+              />
+            </svg>
+            Search
+          </button>
+        </div>
+      </header>
+
+      <main id="pokemon-details-section" class="pokemon-details-section hidden">
+        <div class="pokemon-card">
+          <div id="pokemon-image-container">
+            <img id="pokemonImage" src="#" alt="Pokémon Image" />
+          </div>
+          <h2 id="pokemonName">Pokémon Name</h2>
+          <div id="pokemonTypes" class="pokemon-types">
+            <!-- Types will be injected here -->
+          </div>
+          <p id="pokemonId" class="pokemon-id">#000</p>
+        </div>
+      </main>
+
+      <div id="message-center" class="message-center">
+        <p id="errorMessage" class="error-message"></p>
+        <p id="loadingMessage" class="loading-message">
+          Discovering Pokémon...
+        </p>
+      </div>
+
+      <footer>
+        <p>
+          Powered by
+          <a
+            href="https://pokeapi.co/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >PokeAPI</a
+          >. Inspired Design.
+        </p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

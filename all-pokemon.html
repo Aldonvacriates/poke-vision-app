@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All Pokémon - PokéVision</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app-container">
+      <header class="app-header">
+        <h1>All Pokémon</h1>
+        <nav class="main-nav">
+          <a href="index.html" class="nav-link">Search</a>
+          <a href="all-pokemon.html" class="nav-link active">All Pokémon</a>
+          <a href="memory-game.html" class="nav-link">Memory Game</a>
+        </nav>
+      </header>
+
+      <main id="pokemon-list-section">
+        <div id="list-message-center" class="message-center">
+          <p id="listLoadingMessage" class="loading-message">
+            Loading all Pokémon, please wait...
+          </p>
+          <p id="listErrorMessage" class="error-message"></p>
+        </div>
+        <div id="pokemon-list-container" class="pokemon-grid">
+          <!-- Pokémon cards will be injected here -->
+        </div>
+        <div id="pagination-controls" class="pagination">
+          <!-- Pagination buttons will be injected here -->
+        </div>
+      </main>
+
+      <footer>
+        <p>
+          Powered by
+          <a
+            href="https://pokeapi.co/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >PokeAPI</a
+          >. Inspired Design.
+        </p>
+      </footer>
+    </div>
+
+    <script src="all-pokemon.js"></script>
+  </body>
+</html>
