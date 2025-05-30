@@ -90,10 +90,7 @@ To run this project locally, follow these steps:
 *   **Memory Game Page:**
     '![Pokémon Search Page showing Pikachu](images/memory-game.png)'
 
-To add screenshots:
-1. Take screenshots of your application.
-2. Add them to your project folder (e.g., in an `assets/images/` subfolder).
-3. Update the markdown like this: `![Description of Image](path/to/your/image.png)`
+
 
 ## Future Enhancements (Optional)
 
