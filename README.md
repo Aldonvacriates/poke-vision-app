@@ -4,11 +4,11 @@ A small, dependency-free web app on top of the [PokeAPI](https://pokeapi.co/): l
 
 **Live demo:** https://poke-vision-app.vercel.app
 
-Context: Coding Temple 2025 JavaScript project (a single-assignment exercise, not a production app).
+Context: Coding Temple 2025 JavaScript project.
 
 ## Features
 
-- **Search** (`index.html`): enter a name or National Pokédex number to see the Pokémon's artwork, name, zero-padded ID and color-coded type badges. Unknown names get a "not found" message; other API failures get a separate error message.
+- **Search** (`index.html`): enter a name or National Pokédex number to see the Pokémon's artwork, name, zero-padded ID and color-coded type badges. A name or number the API does not recognize gets a "not found" message; other API failures get a separate error message.
 - **All Pokémon** (`all-pokemon.html`): a grid of every Pokémon returned by the API, 40 per page, with Previous/Next controls and a "Page X of Y" indicator. Clicking a card opens the search page with that Pokémon already loaded.
 - **Memory game** (`memory-game.html`): 8 random Pokémon, 16 face-down cards. Flip two at a time to find pairs; the game counts attempts and matches, shows a win message, and can be reset to deal a new set.
 - Loading and error states on every page, CSS card-flip and fade-in animations, and responsive breakpoints for smaller screens.
